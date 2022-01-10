@@ -1,0 +1,73 @@
+body{
+    background-color: ivory;
+    text-align: center;
+}
+
+p{
+    padding-top: 150px;
+    font-size: 2.9em;
+    font-style: italic;
+}
+
+h3{
+    font-size: 3.2em;
+}
+
+.change{
+    color: #9c27b0;
+}
+.change:after{
+    content: "";
+    animation: change 15s linear infinite;
+}
+@keyframes change{
+    0%{
+        content: "Red";
+        color: red;
+    }
+    10%{
+        content: "Yellow";
+        color: yellow;
+    }
+    20%{
+        content: "Pink";
+        color: pink;
+    }
+    30%{
+        content: "Violet";
+        color: violet;
+    }
+    40%{
+        content: "Purple";
+        color: purple;
+    }
+    50%{
+        content: "Orange";
+        color: orange;
+    }
+    60%{
+        content: "Green";
+        color: green;
+    }
+    70%{
+        content: "Black";
+        color: black;
+    }
+    80%{
+        content: "Blue";
+        color: blue;
+    }
+    90%{
+        content: "Aquamarine";
+        color: aquamarine;
+    }
+    100%{
+        content: "Coral";
+        color: coral;
+    }
+
+
+
+
+
+}
